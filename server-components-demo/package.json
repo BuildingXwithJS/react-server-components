@@ -44,8 +44,7 @@
     "server:prod": "cross-env NODE_ENV=production nodemon -- --conditions=react-server server",
     "bundler:dev": "cross-env NODE_ENV=development nodemon -- scripts/build.js",
     "bundler:prod": "cross-env NODE_ENV=production nodemon -- scripts/build.js",
-    "prettier": "prettier --write **/*.js",
-    "seed": "node ./scripts/seed.js"
+    "prettier": "prettier --write **/*.js"
   },
   "babel": {
     "presets": [
